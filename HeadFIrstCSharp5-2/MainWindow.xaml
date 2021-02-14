@@ -17,10 +17,10 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
  
-        <CheckBox Content="Flaming" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0"/>
-        <CheckBox Content="Magic" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Grid.Column="1"/>
-        <Button Content="Calculate Damage" Grid.Row ="1" Margin="10,5" Grid.ColumnSpan="2"/>
-        <TextBlock 
+        <CheckBox x:Name="flaming" Content="Flaming" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Checked="Flaming_Checked" Unchecked="Flaming_Unchecked"/>
+        <CheckBox x:Name="magic" Content="Magic" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Grid.Column="1" Checked="Flaming_Checked" Unchecked="Flaming_Unchecked"/>
+        <Button Content="Calculate Damage" Grid.Row ="1" Margin="10,5" Grid.ColumnSpan="2" Click="Button_Click"/>
+        <TextBlock x:Name="damage" Grid.Row="2" Grid.ColumnSpan="2" Text="damage" VerticalAlignment="Center" HorizontalAlignment="Center" />
 
     </Grid>
 </Window>
