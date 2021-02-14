@@ -16,7 +16,11 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
+ 
+        <CheckBox Content="Flaming" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0"/>
         <CheckBox Content="Magic" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Grid.Column="1"/>
+        <Button Content="Calculate Damage" Grid.Row ="1" Margin="10,5" Grid.ColumnSpan="2"/>
+        <TextBlock 
 
     </Grid>
 </Window>
