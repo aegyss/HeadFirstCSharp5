@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadFirstCSharp5", "HeadFir
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadFIrstCSharp5-2", "HeadFIrstCSharp5-2\HeadFIrstCSharp5-2.csproj", "{D5BB85AE-3B99-4C9A-B417-CDD316824A3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadFirstCSharp5-3", "HeadFirstCSharp5-3\HeadFirstCSharp5-3.csproj", "{3C197631-09EF-4F4C-A8C7-1EDE4C953B54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D5BB85AE-3B99-4C9A-B417-CDD316824A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5BB85AE-3B99-4C9A-B417-CDD316824A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5BB85AE-3B99-4C9A-B417-CDD316824A3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C197631-09EF-4F4C-A8C7-1EDE4C953B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C197631-09EF-4F4C-A8C7-1EDE4C953B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C197631-09EF-4F4C-A8C7-1EDE4C953B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C197631-09EF-4F4C-A8C7-1EDE4C953B54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

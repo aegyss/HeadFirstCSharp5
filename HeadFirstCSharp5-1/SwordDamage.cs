@@ -17,7 +17,7 @@ namespace HeadFirstCSharp5
         int FlamingDamage = 0;
         public int Damage;
 
-        public void CalculateDamage()
+        private void CalculateDamage()
         {
             Damage = (int)(Roll * Multiplier) + BASE_DAMAGE + FlamingDamage;
             Debug.WriteLine($"CalculateDamage finished: {Damage}. Roll: {Roll}");
